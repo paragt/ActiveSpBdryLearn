@@ -20,7 +20,8 @@ Linux: Install miniconda on your workstation. Create and activate the conda envi
 
 Then follow the usual procedure of building:
 
-  mkdir build 
+  mkdir build
+ 
   cd build
 
   cmake -DCMAKE_PREFIX_PATH=[CONDA_ENV_PATH]/my_conda_env ..
@@ -32,3 +33,5 @@ Given a text file with feature values and labels for all superpixel boundaries, 
 build/InteractiveLearnMain all_feature_labels_FIB2_123.txt int_classifier_FIB_123_e10000.xml 6 10000 5.0 > log_train_FIB2_123_e10000.txt
 
 The sample feature file is uploaded to dropbox for size constraint: https://www.dropbox.com/sh/6xq3t0wfhdxbb1l/AACtoyLQyDbmjra-NvHDAiBga?dl=0
+
+contact: toufiq.parag@gmail.com
