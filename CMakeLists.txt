@@ -4,12 +4,15 @@ project (InteractiveLearn)
 #  ask to use -DCMAKE_PREFIX_PATH=/groups/scheffer/home/paragt/miniconda/envs/tst_my/
 
 #   include_directories (/groups/scheffer/home/paragt/miniconda/envs/tst_my/include/)
+   include_directories (${CMAKE_PREFIX_PATH}/include)
 
    include_directories (IterativeLearners)
    include_directories (SemiSupervised)
    include_directories (Classifier)
 
 #    link_directories (/groups/scheffer/home/paragt/miniconda/envs/tst_my/lib) 
+
+   link_directories (${CMAKE_PREFIX_PATH}/lib)
 
    add_subdirectory (IterativeLearners)
    add_subdirectory (Classifier)
