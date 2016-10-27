@@ -14,7 +14,7 @@ Once a superpixel boundary has been learned using these codes, it can be used fo
 # Build
 Linux: Install miniconda on your workstation. Create and activate the conda environment using the following commands:
 
-  conda create -n my_conda_env -c flyem vigra opencv 
+  conda create -n my_conda_env -c flyem vigra=1.10 opencv 
 
   source activate my_conda_env
 
